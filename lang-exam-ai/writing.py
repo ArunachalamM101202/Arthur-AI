@@ -123,7 +123,7 @@ def main():
     # st.sidebar.image("https://media.giphy.com/media/S60CrN9iMxFlyp7uM8/giphy.gif?cid=790b7611l1yct98bgj4lm0205cu71rf1hyrbgi081lx92ga1&ep=v1_gifs_search&rid=giphy.gif&ct=g",width=200)
 
     animation_json = ""
-    with open("chatbot_animation.json", "r") as f:
+    with open("lang-exam-ai/chatbot_animation.json", "r") as f:
         animation_json = json.load(f)
 
     with st.sidebar:
