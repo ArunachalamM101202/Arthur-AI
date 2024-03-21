@@ -103,19 +103,19 @@ with open("lang-exam-ai/custom_prompt/german_reading_model.txt","r") as toefl_re
     german_reading_str_model=toefl_reading_user.read()
 
 german_writing_str = ""
-with open("custom_prompt/german_writing_user.txt","r") as toefl_reading_user:
+with open("lang-exam-ai/custom_prompt/german_writing_user.txt","r") as toefl_reading_user:
     german_writing_str=toefl_reading_user.read()
 
 german_writing_str_model = ""
-with open("custom_prompt/german_writing_model.txt","r") as toefl_reading_user:
+with open("lang-exam-ai/custom_prompt/german_writing_model.txt","r") as toefl_reading_user:
     german_writing_str_model=toefl_reading_user.read()
 
 french_reading_str = ""
-with open("custom_prompt/french_reading_user.txt","r") as toefl_reading_user:
+with open("lang-exam-ai/custom_prompt/french_reading_user.txt","r") as toefl_reading_user:
     french_reading_str=toefl_reading_user.read()
 
 french_reading_str_model = ""
-with open("custom_prompt/french_reading_model.txt","r") as toefl_reading_user:
+with open("lang-exam-ai/custom_prompt/french_reading_model.txt","r") as toefl_reading_user:
     french_reading_str_model=toefl_reading_user.read()
 
 def main():
