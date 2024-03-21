@@ -59,47 +59,47 @@ with open("lang-exam-ai/custom_prompt/toefl_writing_user.txt", "r") as toefl_wri
     toefl_writing_str = toefl_writing_user.read()
 
 toefl_writing_str_model = ""
-with open("custom_prompt/toefl_writing_model.txt", "r") as toefl_writing_user:
+with open("lang-exam-ai/custom_prompt/toefl_writing_model.txt", "r") as toefl_writing_user:
     toefl_writing_str_model = toefl_writing_user.read()
 
 toefl_reading_str = ""
-with open("custom_prompt/toefl_reading_user.txt","r") as toefl_reading_user:
+with open("lang-exam-ai/custom_prompt/toefl_reading_user.txt","r") as toefl_reading_user:
     toefl_reading_str=toefl_reading_user.read()
 
 toefl_reading_str_model = ""
-with open("custom_prompt/toefl_reading_model.txt","r") as toefl_reading_user:
+with open("lang-exam-ai/custom_prompt/toefl_reading_model.txt","r") as toefl_reading_user:
     toefl_reading_str_model=toefl_reading_user.read()
 
 gre_verbal_str = ""
-with open("custom_prompt/gre_verbal_user.txt","r") as toefl_reading_user:
+with open("lang-exam-ai/custom_prompt/gre_verbal_user.txt","r") as toefl_reading_user:
     gre_verbal_str=toefl_reading_user.read()
 
 gre_verbal_str_model = ""
-with open("custom_prompt/gre_verbal_model.txt","r") as toefl_reading_user:
+with open("lang-exam-ai/custom_prompt/gre_verbal_model.txt","r") as toefl_reading_user:
     gre_verbal_str_model=toefl_reading_user.read()
 
 ielts_reading_str = ""
-with open("custom_prompt/ielts_reading_user.txt","r") as toefl_reading_user:
+with open("lang-exam-ai/custom_prompt/ielts_reading_user.txt","r") as toefl_reading_user:
     ielts_reading_str=toefl_reading_user.read()
 
 ielts_reading_str_model = ""
-with open("custom_prompt/ielts_reading_model.txt","r") as toefl_reading_user:
+with open("lang-exam-ai/custom_prompt/ielts_reading_model.txt","r") as toefl_reading_user:
     ielts_reading_str_model=toefl_reading_user.read()
 
 ielts_writing_str = ""
-with open("custom_prompt/ielts_writing_user.txt","r") as toefl_reading_user:
+with open("lang-exam-ai/custom_prompt/ielts_writing_user.txt","r") as toefl_reading_user:
     ielts_writing_str=toefl_reading_user.read()
 
 ielts_writing_str_model = ""
-with open("custom_prompt/ielts_writing_model.txt","r") as toefl_reading_user:
+with open("lang-exam-ai/custom_prompt/ielts_writing_model.txt","r") as toefl_reading_user:
     ielts_writing_str_model=toefl_reading_user.read()
 
 german_reading_str = ""
-with open("custom_prompt/german_reading_user.txt","r") as toefl_reading_user:
+with open("lang-exam-ai/custom_prompt/german_reading_user.txt","r") as toefl_reading_user:
     german_reading_str=toefl_reading_user.read()
 
 german_reading_str_model = ""
-with open("custom_prompt/german_reading_model.txt","r") as toefl_reading_user:
+with open("lang-exam-ai/custom_prompt/german_reading_model.txt","r") as toefl_reading_user:
     german_reading_str_model=toefl_reading_user.read()
 
 german_writing_str = ""
