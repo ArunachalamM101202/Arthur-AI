@@ -55,7 +55,7 @@ model = genai.GenerativeModel(model_name="gemini-1.0-pro",
 model_avatar = "model_img.png"
 
 toefl_writing_str = ""
-with open("custom_prompt/toefl_writing_user.txt", "r") as toefl_writing_user:
+with open("/lang-exam-ai/custom_prompt/toefl_writing_user.txt", "r") as toefl_writing_user:
     toefl_writing_str = toefl_writing_user.read()
 
 toefl_writing_str_model = ""
