@@ -52,8 +52,6 @@ model = genai.GenerativeModel(model_name="gemini-1.0-pro",
                               generation_config=generation_config,
                               safety_settings=safety_settings)
 
-model_avatar = "model_img.png"
-
 toefl_writing_str = ""
 with open("lang-exam-ai/custom_prompt/toefl_writing_user.txt", "r") as toefl_writing_user:
     toefl_writing_str = toefl_writing_user.read()
@@ -285,7 +283,7 @@ Arthur AI is your personalized language exam practice assistant developed by Tea
     for message in st.session_state[exam_type]:
         role = message["role"]
         parts = message["parts"]
-        with st.chat_message(role, avatar=None if role == "user" else model_avatar):
+        with st.chat_message(role):
             for part in parts:
                 if role == "user":
                     st.write(part)  # Display user input directly
