@@ -1,5 +1,6 @@
 streamlit
 gtts
 python-dotenv
-google
-streamlit_lottie
+google-generativeai
+streamlit-lottie
+requests
