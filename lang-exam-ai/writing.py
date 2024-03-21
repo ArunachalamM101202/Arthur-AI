@@ -121,7 +121,7 @@ with open("lang-exam-ai/custom_prompt/french_reading_model.txt","r") as toefl_re
 def main():
     # Sidebar for selecting exam type
     # st.sidebar.image("https://media.giphy.com/media/S60CrN9iMxFlyp7uM8/giphy.gif?cid=790b7611l1yct98bgj4lm0205cu71rf1hyrbgi081lx92ga1&ep=v1_gifs_search&rid=giphy.gif&ct=g",width=200)
-
+    st.set_page_config(page_title="Arthur AI")
     with st.sidebar:
         anim = lottie_local('lang-exam-ai/chatbot_animation.json')
         st_lottie(anim,
