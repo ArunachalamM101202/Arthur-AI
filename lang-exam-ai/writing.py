@@ -127,7 +127,7 @@ def main():
         animation_json = json.load(f)
 
     with st.sidebar:
-        anim = lottie_local('chatbot_animation.json')
+        anim = lottie_local('lang-exam-ai/chatbot_animation.json')
         st_lottie(anim,
                 speed=1,
                 reverse=False,
