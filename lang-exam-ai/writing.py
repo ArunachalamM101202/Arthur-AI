@@ -119,7 +119,7 @@ with open("lang-exam-ai/custom_prompt/french_reading_model.txt","r") as toefl_re
 def main():
     # Sidebar for selecting exam type
     # st.sidebar.image("https://media.giphy.com/media/S60CrN9iMxFlyp7uM8/giphy.gif?cid=790b7611l1yct98bgj4lm0205cu71rf1hyrbgi081lx92ga1&ep=v1_gifs_search&rid=giphy.gif&ct=g",width=200)
-    st.set_page_config(page_title="Arthur AI")
+    st.set_page_config(page_title="Arthur AI",page_icon=":book:")
     with st.sidebar:
         anim = lottie_local('lang-exam-ai/chatbot_animation.json')
         st_lottie(anim,
@@ -136,7 +136,7 @@ def main():
 
 Arthur AI is your personalized language exam practice assistant developed by Team AllStars and powered by state-of-the-art natural language processing models. Whether you're preparing for exams like TOEFL, GRE, IELTS, or language proficiency tests like German (A1) and French (A1). Arthur AI is here to help you improve your skills.
 """)
-    
+    st.set_page_config(page_title="Arthur AI", page_icon=":desktop_computer:")
     exam_type = st.sidebar.selectbox("Select Exam Type you wish to practice", ("TOEFL Reading", "TOEFL Writing", "GRE Verbal", "IELTS Reading","IELTS Writing","German - A1 Reading (Lesen)","German - A1 Writing (Schreiben)","French - A1 Reading (lecture)"))
 
     st.title(f"Arthur AI - {exam_type}")
