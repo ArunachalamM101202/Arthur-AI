@@ -136,7 +136,7 @@ def main():
 
 Arthur AI is your personalized language exam practice assistant developed by Team AllStars and powered by state-of-the-art natural language processing models. Whether you're preparing for exams like TOEFL, GRE, IELTS, or language proficiency tests like German (A1) and French (A1). Arthur AI is here to help you improve your skills.
 """)
-    st.set_page_config(page_title="Arthur AI", page_icon=":desktop_computer:")
+    st.set_page_config(page_title="Arthur AI", page_icon=":desktop:")
     exam_type = st.sidebar.selectbox("Select Exam Type you wish to practice", ("TOEFL Reading", "TOEFL Writing", "GRE Verbal", "IELTS Reading","IELTS Writing","German - A1 Reading (Lesen)","German - A1 Writing (Schreiben)","French - A1 Reading (lecture)"))
 
     st.title(f"Arthur AI - {exam_type}")
