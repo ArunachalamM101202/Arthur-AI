@@ -278,7 +278,7 @@ Arthur AI is your personalized language exam practice assistant developed by Tea
         # to remove \n
         response_with_br = response.replace('\n', '<br>')
         # st.write_stream(response_with_br)
-        st.write(response_with_br)
+        #st.write(response_with_br)
 
     # Display chat messages from history on app rerun for selected exam type
     for message in st.session_state[exam_type]:
